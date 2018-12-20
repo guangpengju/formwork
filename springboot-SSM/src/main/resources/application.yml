@@ -1,0 +1,10 @@
+﻿spring:
+  application:
+    name: formwork #eureka注册名称
+  profiles:
+    active: dev
+server:
+  port: 8081 #端口
+  servlet:
+    context-path: /formwork #工程名
+
