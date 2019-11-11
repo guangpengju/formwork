@@ -1,0 +1,7 @@
+server:
+  port: 8181 #端口
+  servlet:
+    context-path: / #工程名
+xy:
+  gateway:
+    url: http://127.0.0.1

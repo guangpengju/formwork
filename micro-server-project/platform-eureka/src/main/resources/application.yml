@@ -1,0 +1,13 @@
+eureka:
+  server:
+    enable-self-preservation: false #关闭安全模式
+#  instance:
+#    hostname: eureka-server1 #eureka服务端的实例名称
+#  client:
+#    register-with-eureka: false     #false 表示不向其他注册中心注册自己。
+#    fetch-registry: false     #false 表示不去其他注册中心检索服务
+#    service-url:
+#      defaultZone: http://127.0.0.1:8761/eureka/
+#spring:
+#  profiles:
+#    active: e1

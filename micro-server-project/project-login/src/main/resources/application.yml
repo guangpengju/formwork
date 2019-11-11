@@ -1,0 +1,15 @@
+server:
+  port: 8082 #端口
+  servlet:
+    context-path: /login #工程名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8762/eureka/ #eureka注册端地址
+spring:
+  application:
+    name: login #eureka注册名称
+
+feign:
+  hystrix:
+    enabled: true
